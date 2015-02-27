@@ -1,0 +1,55 @@
+.linterCustomTable {
+	border-collapse: collapse;
+	width: 100%;
+	white-space: nowrap;
+}
+.linterCustomTable thead {
+	text-align: right;
+	display: inline-table;
+	background-color: #53CF29;
+	width: 300px;
+	float: left;
+}
+
+.linterCustomTable tbody {
+	display: inline-table;
+}
+.linterCustomTable th,
+.linterCustomTable td {
+	padding: 3px 3px 3px 3px;
+    height: 30px;
+    border-style: solid;
+    border-width: thin;
+}
+.linterCustomTable tbody td {
+	padding-right: 5px;
+}
+.linterCustomTable td input,
+.linterCustomTable td textarea,
+.linterCustomTable td span{
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+	white-space:pre;
+}
+.linterCustomTable td textarea{
+	height: 55px;
+}
+.linterCustomTable td span{
+	line-height: 23px;
+}
+.linterCustomTable button{
+	width: 120px;
+	height: 23px;
+}
+.linterCustomTable .large{
+	height: 65px;
+}
+.linterCustomTable thead .large{
+	padding-top: 10px;
+	vertical-align: text-top;
+}
+.linterCustomButton{
+	width: 90px;
+	height: 23px;
+}
